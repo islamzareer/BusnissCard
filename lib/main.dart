@@ -23,8 +23,11 @@ class BusniessCardApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/person.jpg'),
               ),
             ),
+            SizedBox(
+              height: 5,
+            ),
             Text(
-              'Islam Zareer',
+              'Islam Za\'reer',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 32,
@@ -54,10 +57,10 @@ class BusniessCardApp extends StatelessWidget {
                 leading: Icon(
                   Icons.phone,
                   size: 32,
-                  color: Color.fromRGBO(43, 71, 94, 1),
+                  color: Color.fromARGB(255, 32, 53, 70),
                 ),
                 title: Text(
-                  '(+972) 592645602',
+                  '(+972) 0123456789',
                   style: TextStyle(fontSize: 24),
                 ),
               ),
@@ -68,10 +71,10 @@ class BusniessCardApp extends StatelessWidget {
                 leading: Icon(
                   Icons.mail,
                   size: 32,
-                  color: Color.fromRGBO(43, 71, 94, 1),
+                  color: Color.fromARGB(255, 32, 53, 70),
                 ),
                 title: Text(
-                  'Islamzareer@gmail.com',
+                  'Islam@gmail.com',
                   style: TextStyle(fontSize: 24),
                 ),
               ),
